@@ -1,0 +1,103 @@
+/* Assets:
+Font: Work sans
+Farben: 2e2e2e# / #867772 / rgb(234, 204, 194) / #ebccc2 / #fff / rgb(115, 115, 115)  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+* {
+     margin: 0;
+     padding: 0;
+}
+body {
+     font-family: 'Work Sans', sans-serif;
+     background: rgb(39, 39, 39);
+}
+header {
+     position: fixed;
+     width: 90vw;
+     height: 10vh;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 5%;
+     padding-top: 10px;
+}
+header nav {
+     display: flex;
+     justify-content: space-between;
+     width: 50%;
+}
+header li {
+     display: inline;
+     padding: 0 10px;
+}
+header a {
+     font-size: 0.8em;
+     text-decoration: none;
+     color: rgb(132, 119, 115);
+     transition: ease-in-out 0.5s;
+}
+header a:hover {
+     text-decoration: underline;
+     color: #ebccc2;
+     font-weight: bold;
+}
+aside {
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     color: white;
+     line-height: 50px;
+}
+
+aside a {
+     text-decoration: none;
+     color: #fff;
+}
+aside span {
+     font-size: 30px;
+     color: rgb(115, 115, 115);
+}
+main {
+     height: 200vh;
+}
+section {
+     display: grid;
+     grid-template-columns: 1fr;
+     padding-top: 10%;
+     justify-self: center;
+     margin-left: 5%;
+}
+section div {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+}
+section img {
+     width: 96%;
+     margin-top: 5%;
+}
+section h1 {
+     width: 21%;
+     margin-left: 30%;
+     color: #ebccc2;
+}
+article {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 40px;
+     margin-top: 10%;
+     margin-left: 5%;
+     width: 90vw;
+     color: #ebccc2;
+}
+article img {
+     height: 300px;
+     width: 500px;
+     justify-self: end;
+}
+article div {
+     align-self: center;
+}
