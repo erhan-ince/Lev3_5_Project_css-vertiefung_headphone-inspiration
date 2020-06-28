@@ -50,15 +50,30 @@ aside {
      flex-direction: column;
      color: white;
      line-height: 50px;
+     margin-left: 3%;
+     margin-top: 5%;
 }
 
 aside a {
      text-decoration: none;
-     color: #fff;
+     color: rgb(115, 115, 115);
 }
 aside span {
-     font-size: 30px;
+     font-size: 20px;
      color: rgb(115, 115, 115);
+}
+aside div {
+     height: 5vh;
+     border-left: 1px solid #737373;
+     margin-left: 4%;
+}
+.active {
+     color: #fff;
+}
+.active span {
+     border: 1px solid white;
+     border-radius: 50%;
+     display: inline-block;
 }
 main {
      height: 200vh;
@@ -69,6 +84,7 @@ section {
      padding-top: 10%;
      justify-self: center;
      margin-left: 5%;
+     margin-bottom: 25%;
 }
 section div {
      display: flex;
@@ -81,17 +97,19 @@ section img {
 }
 section h1 {
      width: 21%;
+     margin-top: 5%;
      margin-left: 30%;
      color: #ebccc2;
+     line-height: 30px;
 }
 article {
      display: grid;
      grid-template-columns: 1fr 1fr;
-     gap: 40px;
-     margin-top: 10%;
-     margin-left: 5%;
+     gap: 70px;
+     margin-left: 15%;
      width: 90vw;
      color: #ebccc2;
+     margin-bottom: 10%;
 }
 article img {
      height: 300px;
@@ -100,4 +118,32 @@ article img {
 }
 article div {
      align-self: center;
+}
+article h2 {
+     font-size: 1.5em;
+     letter-spacing: 2px;
+     margin-bottom: 5%;
+}
+article p {
+     color: rgb(115, 115, 115);
+     width: 82%;
+     font-size: 0.9em;
+     line-height: 2;
+     font-weight: 100;
+}
+#lounger {
+     height: 100vh;
+     display: flex;
+}
+#lounger img {
+     width: 60%;
+     height: 100vh;
+     margin-right: 5%;
+}
+#lounger div {
+     width: 40%;
+     margin-right: 5%;
+}
+#lounger h1 {
+     margin: 0;
 }
