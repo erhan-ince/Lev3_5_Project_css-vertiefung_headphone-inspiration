@@ -136,22 +136,31 @@ article p {
      background: url(../img/section-voyager.jpg) top left no-repeat;
      background-size: 55% 100%;
 }
-#lounger {
+#lounger,
+#experience {
      background: rgb(39, 39, 39);
      width: 50%;
      margin-left: 50%;
-}
-#lounger {
-}
-
-#lounger div {
-     width: 50%;
      height: 100vh;
+}
+#lounger,
+#experience h1 {
+     color: white;
+}
+#lounger,
+#experience p {
+     color: rgb(115, 115, 115);
+     width: 82%;
+     font-size: 0.9em;
+     line-height: 2;
+     font-weight: 100;
+}
+#lounger div {
+     width: 70%;
+     height: 100%;
      margin-left: 25%;
 }
 #bodyExperience {
-     height: 100vh;
-     width: 100vw;
      background: url(../img/section-experience-1.jpg) top left no-repeat;
      background-size: 55% 100%;
 }
