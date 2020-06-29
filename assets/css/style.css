@@ -149,3 +149,9 @@ article p {
      height: 100vh;
      margin-left: 25%;
 }
+#bodyExperience {
+     height: 100vh;
+     width: 100vw;
+     background: url(../img/section-experience-1.jpg) top left no-repeat;
+     background-size: 55% 100%;
+}
