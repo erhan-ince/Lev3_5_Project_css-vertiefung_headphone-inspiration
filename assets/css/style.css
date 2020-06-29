@@ -139,7 +139,7 @@ article p {
 #lounger,
 #experience {
      background: rgb(39, 39, 39);
-     width: 50%;
+     width: 40%;
      margin-left: 50%;
      height: 100vh;
 }
@@ -150,7 +150,7 @@ article p {
 #lounger,
 #experience p {
      color: rgb(115, 115, 115);
-     width: 82%;
+     width: 48%;
      font-size: 0.9em;
      line-height: 2;
      font-weight: 100;
