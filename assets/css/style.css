@@ -131,19 +131,17 @@ article p {
      line-height: 2;
      font-weight: 100;
 }
-#lounger {
-     height: 100vh;
-     display: flex;
-}
-#lounger img {
-     width: 60%;
-     height: 100vh;
-     margin-right: 5%;
-}
-#lounger div {
-     width: 40%;
-     margin-right: 5%;
-}
-#lounger h1 {
+#bodyLounger {
      margin: 0;
+     height: 100vh;
+}
+#lounger {
+     background: url(../img/section-voyager.jpg) top left no-repeat;
+     background-size: 700px 100%;
+     height: 100vh;
+}
+
+#lounger div {
+     width: 30%;
+     margin-left: 65%;
 }
